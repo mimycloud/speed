@@ -356,7 +356,7 @@ DOWNLOAD=500mbit
 GitHub 仓库：
 
 ```text
-https://github.com/kkkm0/speed
+https://github.com/mimycloud/speed
 ```
 
 ---
