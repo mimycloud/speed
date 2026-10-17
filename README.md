@@ -35,7 +35,7 @@
 ### 上传 100 Mbps / 下载 200 Mbps
 
 ```bash
-wget -qO- https://raw.githubusercontent.com/kkkm0/speed/main/install.sh | bash -s -- 100 200
+wget -qO- https://raw.githubusercontent.com/mimycloud/speed/main/install.sh | bash -s -- 100 200
 ```
 
 参数格式：
@@ -59,13 +59,13 @@ install.sh <上传Mbps> <下载Mbps>
 ### 100 / 200 Mbps
 
 ```bash
-wget -qO- https://raw.githubusercontent.com/kkkm0/speed/main/install.sh | bash -s -- 100 200
+wget -qO- https://raw.githubusercontent.com/mimycloud/speed/main/install.sh | bash -s -- 100 200
 ```
 
 ### 500 / 500 Mbps
 
 ```bash
-wget -qO- https://raw.githubusercontent.com/kkkm0/speed/main/install.sh | bash -s -- 500 500
+wget -qO- https://raw.githubusercontent.com/mimycloud/speed/main/install.sh | bash -s -- 500 500
 ```
 
 ### 1000 / 1000 Mbps
@@ -73,19 +73,19 @@ wget -qO- https://raw.githubusercontent.com/kkkm0/speed/main/install.sh | bash -
 即双向 1 Gbps：
 
 ```bash
-wget -qO- https://raw.githubusercontent.com/kkkm0/speed/main/install.sh | bash -s -- 1000 1000
+wget -qO- https://raw.githubusercontent.com/mimycloud/speed/main/install.sh | bash -s -- 1000 1000
 ```
 
 ### 上传 1000 Mbps / 下载 500 Mbps
 
 ```bash
-wget -qO- https://raw.githubusercontent.com/kkkm0/speed/main/install.sh | bash -s -- 1000 500
+wget -qO- https://raw.githubusercontent.com/mimycloud/speed/main/install.sh | bash -s -- 1000 500
 ```
 
 ### 上传 500 Mbps / 下载 1000 Mbps
 
 ```bash
-wget -qO- https://raw.githubusercontent.com/kkkm0/speed/main/install.sh | bash -s -- 500 1000
+wget -qO- https://raw.githubusercontent.com/mimycloud/speed/main/install.sh | bash -s -- 500 1000
 ```
 
 ---
@@ -111,7 +111,7 @@ wget -qO- https://raw.githubusercontent.com/kkkm0/speed/main/install.sh | bash -
 直接执行：
 
 ```bash
-wget -qO- https://raw.githubusercontent.com/kkkm0/speed/main/install.sh | bash -s -- 500 500
+wget -qO- https://raw.githubusercontent.com/mimycloud/speed/main/install.sh | bash -s -- 500 500
 ```
 
 脚本会自动更新配置并立即应用。
@@ -196,7 +196,7 @@ systemctl is-enabled vps-bandwidth.service
 如果想完全解除带宽限制并恢复 VPS 原始网络速度：
 
 ```bash
-wget -qO- https://raw.githubusercontent.com/kkkm0/speed/main/uninstall.sh | bash
+wget -qO- https://raw.githubusercontent.com/mimycloud/speed/main/uninstall.sh | bash
 ```
 
 卸载脚本会：
